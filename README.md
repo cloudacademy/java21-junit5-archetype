@@ -1,5 +1,5 @@
-![Build Status](https://github.com/cloudacademy/java11-junit5-archetype/actions/workflows/release.yml/badge.svg) 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/cloudacademy/java11-junit5-archetype)
+![Build Status](https://github.com/cloudacademy/java21-junit5-archetype/actions/workflows/release.yml/badge.svg) 
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/cloudacademy/java21-junit5-archetype)
 
 # Maven Quickstart Archetype - Java 11 + JUnit5
 
@@ -15,8 +15,8 @@ Used to provide a Maven archetype for Java 11 and JUnit5. You can use this to qu
 To install the archetype in your local repository execute the following commands:
 
 ```bash
-git clone https://github.com/cloudacademy/java11-junit5-archetype.git
-cd java11-junit5-archetype
+git clone https://github.com/cloudacademy/java21-junit5-archetype.git
+cd java21-junit5-archetype
 mvn clean install
 ```
 
@@ -36,7 +36,7 @@ Execute the following Maven `archetyp:generate` command to bootstrap your new Ja
 ```
 mvn archetype:generate \
  -DarchetypeGroupId=com.cloudacademy.devops \
- -DarchetypeArtifactId=java11-junit5-archetype \
+ -DarchetypeArtifactId=java21-junit5-archetype \
  -DarchetypeVersion=1.0.0-SNAPSHOT \
  -DgroupId=com.example \
  -DartifactId=my-project \
