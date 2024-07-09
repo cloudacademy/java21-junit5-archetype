@@ -1,13 +1,13 @@
 ![Build Status](https://github.com/cloudacademy/java21-junit5-archetype/actions/workflows/release.yml/badge.svg) 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/cloudacademy/java21-junit5-archetype)
 
-# Maven Quickstart Archetype - Java 11 + JUnit5
+# Maven Quickstart Archetype - Java 21 + JUnit5
 
 ## Summary
-Used to provide a Maven archetype for Java 11 and JUnit5. You can use this to quickly generate new Java 11 and JUnit 5 TDD project layouts.
+Used to provide a Maven archetype for Java 21 and JUnit5. You can use this to quickly generate new Java 21 and JUnit 5 TDD project layouts.
 
 ## Prerequisites
-* JDK 11
+* JDK 21
 * Maven 3
 
 ## Install Archetype Locally
@@ -22,7 +22,7 @@ mvn clean install
 
 ## Maven Create/Generate New Java Project
 
-The Maven archetype can now be used to setup a new Maven Java project configured for JDK 11 and JUnit 5.
+The Maven archetype can now be used to setup a new Maven Java project configured for JDK 21 and JUnit 5.
 
 First, navigate into a directory where your Java project/s are to be located:
 
@@ -31,7 +31,7 @@ mkdir -p ~/java-maven-projects
 cd ~/java-maven-projects
 ```
 
-Execute the following Maven `archetyp:generate` command to bootstrap your new Java project configured for JDK 11 and JUnit 5:
+Execute the following Maven `archetyp:generate` command to bootstrap your new Java project configured for JDK 21 and JUnit 5:
 
 ```
 mvn archetype:generate \
